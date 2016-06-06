@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test 03</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slippry.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    
+    <script src="js/main.js"></script>
+    <script src="js/slippry.js"></script>
+    <script src-"js/bootstrap.js"></script>
+</head>
+
+<body style="margin:0px">
+
+<div id="headerBar">
+    <div class="wrapper">
+        <img src="img/logo.png" style="float:left; padding-top:32px" \alt>
+        <ul id="nav">
+            <li>
+                <a href="#contact">
+                    <div class="navButton">
+                        <span class="navButtonText">CONTACT</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#blog">
+                    <div class="navButton" style="border-right:none">
+                        <span class="navButtonText">BLOG</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    <div class="navButton" style="border-right:none">
+                        <span class="navButtonText">ABOUT</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio">
+                    <div class="navButton" style="border-right:none">
+                        <span class="navButtonText">PORTFOLIO</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#service">
+                    <div class="navButton" style="border-right:none">
+                        <span class="navButtonText">SERVICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#home">
+                    <div class="navButton" style="border-right:none">
+                        <span class="navButtonText">HOME</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div id="contentPane">
+    <div class="wrapper">
+        <div id="slider">
+
+            <ul id="out-of-the-box-demo">
+                <li>
+                    <a href="#slide1"><img src="img/slide_1.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#slide2"><img src="img/civil_war_01.png"  alt=""></a>
+                </li>
+                <li>
+                    <a href="#slide3"><img src="img/civil_war_02.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <div id="services">
+            <div style="text-align:center">
+                <span style="font-size:30px; font-weight:bold">Our Services</span>
+                <p style="font-size:20px">
+                    Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.
+                </p>
+            </div>
+            <div style="text-align:center; padding-top:5px">
+                
+                <ul class="tab">
+                    <li>
+                        <a href="#" id="webDesignTab" class="tabLinks" onclick="openCity2(event,'webDesignTab','webDesign')">
+                            Web Design
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="photographyTab" class="tabLinks" onclick="openCity2(event,'photographyTab','photography')">
+                            Photography
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="graphicsTab" class="tabLinks" onclick="openCity2(event,'graphicsTab','graphics')">
+                            Graphics
+                        </a>
+                    </li>
+                </ul>
+                <div style="height:50px; border-top:1px solid #c5c5c5; margin-top:-17px"></div>
+                <div id="webDesign" class="tabContent">
+                    <img class="tabContentImage" src="img/tab_1.png" \alt>
+                    <div class="tabContentText">
+                        <span style="font-size:17px; font-weight:bold">Ipsum Fusce Aenean Cursus Euismod</span><br><br>
+                        Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum.
+                        <br><br>
+                        Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur.
+                        <br><br>
+                        <img src="img/check.png" \alt><span>  Vestibulum id ligula porta felis euismod semper.</span><br>
+                        <img src="img/check.png" \alt><span>  Donec ullamcorper nulla non metus auctor fringilla.</span><br>
+                        <img src="img/check.png" \alt><span>  Etiam porta sem malesuada magna mollis euismod.</span><br>
+                    </div>
+                </div>
+                <div id="photography" class="tabContent">
+                    <img class="tabContentImage" src="img/tab_1.png" \alt>
+                    <div class="tabContentText">
+                        <span style="font-size:17px; font-weight:bold">Beautiful Photos</span><br><br>
+                        bla bla bla
+                    </div>
+                </div>
+                <div id="graphics" class="tabContent">
+                    <img class="tabContentImage" src="img/tab_1.png" \alt>
+                    <div class="tabContentText">
+                        <span style="font-size:17px; font-weight:bold">Creative Graphics Design</span><br><br>
+                        bla bla bla
+                    </div>
+                </div>
+            </div>
+            <img style="padding-top:50px" src="img/breaker_line.png" \alt>
+        </div>
+
+        <div id="latestProjects">
+            <div style="font-size:20px; text-align:center">
+                <span style="font-size:30px; font-weight:bold">Latest Staff of Our Projects</span><br><br>
+                Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            </div>
+            <div style="padding-top:35px; font-size:0px">
+                <img style="padding-right:12px" class="projectImage" src="img/camera.png" \alt>
+                <img style="padding-right:12px" class="projectImage" src="img/trees.png" \alt>
+                <img style="" class="projectImage" src="img/horses.png" \alt>
+            </div>
+            <div style="padding-top:10px; font-size:0px">
+                <img style="padding-right:12px" class="projectImage" src="img/elephant.png" \alt>
+                <img style="padding-right:12px" class="projectImage" src="img/heart.png" \alt>
+                <img style="" class="projectImage" src="img/cupcake.png" \alt>
+            </div>
+            <img style="padding-top:50px" src="img/breaker_line.png" \alt>
+        </div>
+
+        <div id="latestBlog">
+            <div style="padding-top:50px; font-size:20px; text-align:center">
+                <span style="font-size:30px; font-weight:bold">Latest Blog</span><br><br>
+                Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            </div>
+            <div style="float:left; width:460px; padding-top:30px">
+                <div style="height:130px">
+                    <img style="float:left" src="img/23jan.png" \alt>
+                    <div style="float:right; width:394px">
+                        <span style="font-size:17px; font-weight:bold">Aenean Adipiscing Etiam Vestibulum</span>
+                        <p style="font-size:13px">Etiam porta sem malesuada magna lorem etor mollis euismod. Cras mattis consectetur purus.</p>
+                        <span style="font-size:11px; color:#6b99b6">Journal, Photography, Web Design  |  9 Comments</span>
+                    </div>
+                </div>
+                <div style="height:130px">
+                    <img style="float:left" src="img/18jan.png" \alt>
+                    <div style="float:right; width:394px">
+                        <span style="font-size:17px; font-weight:bold">Commodo Sem Inceptos Fusce</span>
+                        <p style="font-size:13px">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec vestibulum ligula porta semper.</p>
+                        <span style="font-size:11px; color:#6b99b6">Journal, Photography,  |  11 Comments</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="float:right; width:460px; padding-top:30px">
+                <div style="height:130px">
+                    <img style="float:left" src="img/15jan.png" \alt>
+                    <div style="float:right; width:394px">
+                        <span style="font-size:17px; font-weight:bold">Inceptos Purus Etiam Condimentum</span>
+                        <p style="font-size:13px">Aenean leo quam. Pellentesque ornare lacinia quam. Vestibulum. Integer venenatis dapibus posuere velit aliquet.</p>
+                        <span style="font-size:11px; color:#6b99b6">Journal, Photography, Web Design  |  19 Comments</span>
+                    </div>
+                </div>
+                <div style="height:130px">
+                    <img style="float:left" src="img/13jan.png" \alt>
+                    <div style="float:right; width:394px">
+                        <span style="font-size:17px; font-weight:bold">Justo Etiam Bibendum Venenatis</span>
+                        <p style="font-size:13px">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
+                        <span style="font-size:11px; color:#6b99b6">Journal, Photography,  |  21 Comments</span>
+                    </div>
+                </div>
+            </div>
+            <img style="padding-top:30px" src="img/breaker_line.png" \alt>
+
+        </div>
+        <div id="ourCustomers">
+            <div style="font-size:20px; padding-top:50px; text-align:center">
+                <span style="font-size:30px ;font-weight:bold">Our Customers</span><br><br>
+                Aenean lacinia bibendum nulla sed consectetur. Vivamus augue laoreet rutrum faucibus dolor auctor.
+            </div>
+            <div style="padding-top:40px; padding-bottom:50px; font-size:0px">
+                <div class="logos">
+                    <img class="customer" src="img/vimeo2.png" \alt>
+                </div>
+                <div class="logos">
+                    <img class="customer" src="img/apple2.png" \alt>
+                </div>
+                <div class="logos">
+                    <img class="customer" src="img/benz2.png" \alt>
+                </div>
+                <div class="logos">
+                    <img class="customer" src="img/wb2.png" \alt>
+                </div>
+                <div class="logos">
+                    <img class="customer" src="img/mt2.png" \alt>
+                </div>
+                <div class="logos">
+                    <img class="customer" src="img/bmw2.png" \alt>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="footer">
+    <div style="background-color:#2f3235; height:6px"></div>
+    <div style="height:35px"></div>
+    <div class="wrapper" style="font-size:80px">
+        <div class="footerCol">
+            <span style="font-size:14; font-weight:bold; color:#e3e3e3">POPULAR POSTS</span>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.</p>
+            <span style="color:#666b70; font-size:11px">14 Nov, 2012</span>
+            <img src="img/short_line.png" \alt>
+            <p>Scelerisque nisl consectetur et.</p>
+            <span style="color:#666b70; font-size:11px">22 May, 2012</span>
+            <img src="img/short_line.png" \alt>
+            <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus</p>
+            <span style="color:#666b70; font-size:11px">15 July, 2012</span>
+
+        </div>
+        <div class="footerCol">
+            <span style="font-size:14; font-weight:bold; color:#e3e3e3">TWITTER</span>
+            <p>
+                <img src="img/twitter_bird.png" \alt>
+                &nbsp;Praesent commodo cursus magna Morbi leo risus nulla consectetur. - 
+                <span style="color:#86acc4">21 hours ago</span>
+            </p>
+            <img src="img/short_line.png" \alt>
+            <p>
+                <img src="img/twitter_bird.png" \alt>
+                &nbsp;Vestibulum id ligula porta euismod semper. auctor dolor fermentum. - 
+                <span style="color:#86acc4">2 days ago</span>
+            </p>
+            <img src="img/short_line.png" \alt>
+            <p>
+                <img src="img/twitter_bird.png" \alt>
+                &nbsp;Donec ullamcorper nulla non metus auctor. - 
+                <span style="color:#86acc4">3 days ago</span>
+            </p>
+        </div>
+        <div class="footerCol">
+            <span style="font-size:14; font-weight:bold; color:#e3e3e3">A LITTLE ABOUT ME</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            <p>Donec id elit non porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel.</p>
+        </div>
+        <div class="footerCol">
+            <span style="font-size:14; font-weight:bold; color:#e3e3e3">CONTACT FORM</span>
+            <div style="height:30px"></div>
+            <form>
+                <input type="text" name="" style="width:220px; height:35px; background-color:#282b2d; border:none">
+                <div style="height:10px"></div>
+                <input type="text" name="" style="width:220px; height:35px; background-color:#2d3032; border:none">
+                <div style="height:10px"></div>
+                <textarea type="text" name="" style="width:220px; height:140px; background-color:#2d3032; border:none"></textarea>
+                <div style="height:10px"></div>
+                <a href="#" class="button1">Submit</a>
+                <!--<a href="#" class="glass">Submit</a>-->
+            </form>
+        </div>
+        <div style="height:40px"></div>
+    </div>
+</div>
+
+<div style="background-color:#24272a; height:1px"></div>
+<div id="copyRight">
+    <div class="wrapper">
+        <div style="height:70px; float:left">
+            <span style="font-size:13px; color:#bfbfbf">© 2011 Ikaros. Theme by </span><span style="font-size:13px; color:#7494a8">&nbsp;elemis</span>
+        </div>
+
+        <div style="height:70px; float:right; font-size:0px">
+            <img class="icon" src="img/rss2.png" \alt>
+            <img class="icon" src="img/facebook2.png" \alt>
+            <img class="icon" src="img/twitter2.png" \alt>
+            <img class="icon" src="img/dribble2.png" \alt>
+            <img class="icon" src="img/pinterest2.png" \alt>
+            <img class="icon" src="img/linkedin2.png" \alt>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var fido = new dog(3);
+    var age, legs;
+
+    function dog(n){
+        this.age = n;
+        this.legs = 4;
+        //document.write("fido has ", this.legs, " legs and is ", this.age, " years old.");
+    }
+
+    function openCity2(e,tab,city){
+        var i, tabContent, tabLinks;
+        tabContent = document.getElementsByClassName("tabContent");
+        tabLinks = document.getElementsByClassName("tabLinks");
+        for(i=0; i<tabContent.length; i++){
+            tabContent[i].style.display="none";
+            tabLinks[i].style.backgroundColor="#f8f8f8";
+            tabLinks[i].style.color="#555555"
+            tabLinks[i].style.border="1px solid #c5c5c5";
+        }
+        document.getElementById(city).style.display="block";
+        document.getElementById(tab).style.backgroundColor="#fdfdfd";
+        document.getElementById(tab).style.color="#6b99b6";
+        document.getElementById(tab).style.borderBottom="none";
+        e.preventDefault();
+    }
+
+</script>
+
+
+</body>
+
+</html>
